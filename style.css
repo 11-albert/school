@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+#while{
+    animation: spn 40s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes spn{
+    from{
+        transform: rotateZ(0deg);
+        transform: translateX(-500px);
+    }
+    to{
+        transform: rotateZ(360deg);
+        transform: translateX(600px);
+    }
+}
+#second-while{
+    animation: spi 40s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes spi{
+    from{
+        transform: rotateZ(0deg);
+        transform: translateX(-500px);
+       
+    }
+    to{
+        transform: rotateZ(360deg);
+        transform: translateX(600px);
+       
+    }
+}
+
+#sun{
+    animation: cchan 10s linear infinite;
+}
+@keyframes cchan{
+    from{
+        transform: rotate(0deg);
+       
+    }
+    to{
+        transform: rotate(20deg);
+       
+    }
+  
+}
+#cloud{
+    animation: moving 40s linear infinite;
+}
+@keyframes moving{
+    from{
+        transform: translateX(500px);
+    }
+    to{
+        transform: translateX(-500px);
+    }
+}
+#cloud1{
+    animation: moving 40s linear infinite;
+}
+@keyframes moving{
+    from{
+        transform: translateX(500px);
+    }
+    to{
+        transform: translateX(-500px);
+    }
+}
+#cloud2{
+    animation: moving 40s linear infinite;
+}
+@keyframes moving{
+    from{
+        transform: translateX(500px);
+   
+    }
+    to{
+        transform: translateX(-500px);
+       
+    }
+}
+
+#car{
+    animation: car 40s linear infinite;
+    
+}
+@keyframes car{
+    from{
+        transform: translateX(-500px);
+    }
+    to{
+        transform: translateX(600px);
+    }
+}
+#tree{
+    animation: tree 10s linear infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+
+}
+
+@keyframes tree{
+    from{
+        transform: rotate(-4deg);
+    }
+    to{
+        transform:rotate(4deg);
+    }
+}
+
+
+
+
+
